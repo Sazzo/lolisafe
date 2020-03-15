@@ -9,7 +9,7 @@ module.exports = {
 	private: true,
 
 	// If true, users will be able to create accounts and access their uploaded files
-	enableUserAccounts: true,
+	enableUserAccounts: false,
 
 	/*
 		Here you can decide if you want lolisafe to serve the files or if you prefer doing so via nginx.
@@ -24,8 +24,8 @@ module.exports = {
 		Both cases require you to type the domain where the files will be served on the `domain` key below.
 		Which one you use is ultimately up to you.
 	*/
-	serveFilesWithNode: false,
-	domain: 'https://lolisafe.moe',
+	serveFilesWithNode: true,
+	domain: 'https://sazzsafe.herokuapp.com',
 
 	// Port on which to run the server
 	port: 9999,
