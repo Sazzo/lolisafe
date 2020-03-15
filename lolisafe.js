@@ -9,6 +9,7 @@ const db = require('knex')(config.database);
 const fs = require('fs');
 const exphbs = require('express-handlebars');
 const safe = express();
+const PORT = '9999'
 
 require('./database/db.js')(db);
 
