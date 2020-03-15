@@ -9,7 +9,7 @@ module.exports = {
 	private: true,
 
 	// If true, users will be able to create accounts and access their uploaded files
-	enableUserAccounts: true,
+	enableUserAccounts: false,
 
 	/*
 		Here you can decide if you want lolisafe to serve the files or if you prefer doing so via nginx.
