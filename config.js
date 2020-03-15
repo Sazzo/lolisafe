@@ -25,7 +25,7 @@ module.exports = {
 		Which one you use is ultimately up to you.
 	*/
 	serveFilesWithNode: true,
-	domain: 'https://i.sazz.xyz',
+	domain: 'https://owo.sazz.xyz',
 
 	// Port on which to run the server
 	port: 9999,
