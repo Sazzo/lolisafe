@@ -9,7 +9,7 @@ const db = require('knex')(config.database);
 const fs = require('fs');
 const exphbs = require('express-handlebars');
 const safe = express();
-const PORT = '9999'
+const PORT = process.env.PORT || 9999;
 
 require('./database/db.js')(db);
 
@@ -56,4 +56,4 @@ for (let page of config.pages) {
 safe.use((req, res, next) => res.status(404).sendFile('404.html', { root: './pages/error/' }));
 safe.use((req, res, next) => res.status(500).sendFile('500.html', { root: './pages/error/' }));
 
-safe.listen(config.port, () => console.log(`lolisafe started on port ${config.port}`));
+safe.listen(PORT, () => console.log(`lolisafe started on port ${config.port}`));
