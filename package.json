@@ -8,7 +8,7 @@
     "url": "https://github.com/WeebDev/lolisafe"
   },
 "engines": {
-    "node": "10.0.0.x"
+    "node": "10.x"
   },
   "bugs": {
     "url": "https://github.com/WeebDev/lolisafe/issues"
