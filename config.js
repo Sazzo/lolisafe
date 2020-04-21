@@ -25,7 +25,7 @@ module.exports = {
 		Which one you use is ultimately up to you.
 	*/
 	serveFilesWithNode: true,
-	domain: 'http://owo.sazz.xyz',
+	domain: 'https://i.sazz.xyz',
 
 	// Port on which to run the server
 	port: 9999,
@@ -68,7 +68,7 @@ module.exports = {
 		maxSize: '512MB',
 
 		// The length of the random generated name for the uploaded files
-		fileLength: 32,
+		fileLength: 8,
 
 		/*
 			This option will limit how many times it will try to generate random names
